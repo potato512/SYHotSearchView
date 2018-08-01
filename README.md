@@ -1,14 +1,14 @@
 # SYHotSearchView
 搜索热词自定义多样式视图
 
-# 可以根据实际需要自定义样式
-（1）九宫格显示，根据字符串长度自适应显示；
-（2）设置显示的字体颜色，高亮时的字体颜色；
-（3）字体大小；
-（4）背景颜色，高亮时的背景颜色等特性；
-（5）边框样式：颜色，粗细，圆角特性；
+* 可以根据实际需要自定义样式
+  * 九宫格显示，根据字符串长度自适应显示；
+  * 设置显示的字体颜色，高亮时的字体颜色；
+  * 字体大小；
+  * 背景颜色，高亮时的背景颜色等特性；
+  * 边框样式：颜色，粗细，圆角特性；
 
-~~~javascript
+```
 /// 是否显示标题标签（默认：不显示标签，也不显示图标）
 @property (nonatomic, assign) BOOL showHotSearchLabel;
 
@@ -57,8 +57,51 @@
 
 /// 刷新UI
 - (void)reloadData;
-~~~
+```
 
-# 效果图
+代码示例
+```
+// 导入头文件
+#import "SYHotSearch.h"
+
+// 实例化
+SYHotSearchView *hotView = [[SYHotSearchView alloc] initWithFrame:CGRectMake(0.0, 200.0, CGRectGetWidth(self.view.bounds), 40.0)];
+// 添加到父视图
+[self.view addSubview:hotView];
+hotView.backgroundColor = SYHotSearchRandomColor;
+// 显示热词搜索标题
+hotView.showHotSearchLabel = YES;
+hotView.hotSearchLabel.textAlignment = NSTextAlignmentCenter;
+hotView.hotSearchLabel.text = @"热门搜索词";
+hotView.hotSearchLabel.font = [UIFont systemFontOfSize:20.0];
+hotView.hotSearchLabel.textColor = SYHotSearchRandomColor;
+hotView.hotSearchLabel.backgroundColor = SYHotSearchRandomColor;
+hotView.hotSearchImage = [UIImage imageNamed:@"normalImage"];
+// 热词显示样式是否九宫格
+hotView.isHotSearchStyleNinePatch = NO;
+// 热词边框样式
+hotView.hotSearchBorderColor = SYHotSearchRandomColor;
+hotView.hotSearchCornerRadius = 10.0;
+hotView.hotSearchBorderWidth = 1.0;
+// 热词排序
+hotView.isHotSearchSort = YES;
+// 热词字体颜色
+hotView.hotSearchTextNormalColor = SYHotSearchRandomColor;
+hotView.hotSearchTextHighlightColor = SYHotSearchRandomColor;
+// 热词背景颜色
+hotView.hotSearchTextNormalBackgroundColors = @[SYHotSearchRandomColor,SYHotSearchRandomColor,SYHotSearchRandomColor,SYHotSearchRandomColor,SYHotSearchRandomColor,SYHotSearchRandomColor,SYHotSearchRandomColor,SYHotSearchRandomColor,SYHotSearchRandomColor,SYHotSearchRandomColor,SYHotSearchRandomColor];
+hotView.hotSearchTextHighlightBackgroundColors = @[SYHotSearchRandomColor,SYHotSearchRandomColor,SYHotSearchRandomColor,SYHotSearchRandomColor,SYHotSearchRandomColor,SYHotSearchRandomColor,SYHotSearchRandomColor,SYHotSearchRandomColor,SYHotSearchRandomColor,SYHotSearchRandomColor,SYHotSearchRandomColor,SYHotSearchRandomColor,SYHotSearchRandomColor,SYHotSearchRandomColor,SYHotSearchRandomColor];
+// 数据源
+hotView.hotSearchWords = @[@"Java", @"Python", @"Objective-C", @"Swift", @"C", @"C++", @"PHP", @"C#", @"Perl", @"Go", @"JavaScript", @"R", @"Ruby", @"MATLAB"];
+// 选择点击回调
+hotView.hotSearchTextClick = ^(NSString *text){
+    [[[UIAlertView alloc] initWithTitle:nil message:text delegate:nil cancelButtonTitle:nil otherButtonTitles:@"知道了", nil] show];
+};
+// 刷新数据
+[hotView reloadData];
+
+```
+
+效果图
 
 ![SYHotSearchView](./SYHotSearchView.gif)

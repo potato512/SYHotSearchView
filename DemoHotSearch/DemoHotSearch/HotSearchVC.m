@@ -23,7 +23,6 @@
     
     [self setNinePachView];
     [self setView];
-    
 }
 
 - (void)didReceiveMemoryWarning {
@@ -34,7 +33,6 @@
 - (void)loadView
 {
     [super loadView];
-    
     self.view.backgroundColor = [UIColor whiteColor];
     
     if ([self respondsToSelector:@selector(setEdgesForExtendedLayout:)])
@@ -52,7 +50,7 @@
     // 显示热词搜索标题
     hotView.showHotSearchLabel = NO;
     hotView.hotSearchLabel.textAlignment = NSTextAlignmentCenter;
-    hotView.hotSearchLabel.text = @"热门搜索词热门搜索词";
+    hotView.hotSearchLabel.text = @"热门搜索词";
     hotView.hotSearchLabel.font = [UIFont systemFontOfSize:20.0];
     hotView.hotSearchLabel.textColor = SYHotSearchRandomColor;
     hotView.hotSearchLabel.backgroundColor = SYHotSearchRandomColor;
@@ -90,7 +88,7 @@
     // 显示热词搜索标题
     hotView.showHotSearchLabel = YES;
     hotView.hotSearchLabel.textAlignment = NSTextAlignmentCenter;
-    hotView.hotSearchLabel.text = @"热门搜索词热门搜索词";
+    hotView.hotSearchLabel.text = @"热门搜索词";
     hotView.hotSearchLabel.font = [UIFont systemFontOfSize:20.0];
     hotView.hotSearchLabel.textColor = SYHotSearchRandomColor;
     hotView.hotSearchLabel.backgroundColor = SYHotSearchRandomColor;

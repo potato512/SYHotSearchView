@@ -4,7 +4,7 @@
 //
 //  Created by zhangshaoyu on 16/10/26.
 //  Copyright © 2016年 zhangshaoyu. All rights reserved.
-//
+//  https://github.com/potato512/SYHotSearchView
 
 #ifndef SYHotSearch_h
 #define SYHotSearch_h

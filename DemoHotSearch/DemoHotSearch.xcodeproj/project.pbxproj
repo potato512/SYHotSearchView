@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A726AB2E1DC19A2B001B9D66 /* UIImage+SYHotSearch.m in Sources */ = {isa = PBXBuildFile; fileRef = A726AB2D1DC19A2B001B9D66 /* UIImage+SYHotSearch.m */; };
 		A726AB311DC1A2E2001B9D66 /* HotSearchVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A726AB301DC1A2E2001B9D66 /* HotSearchVC.m */; };
 		A726AB331DC1D924001B9D66 /* normalImage@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A726AB321DC1D924001B9D66 /* normalImage@2x.png */; };
 		A76B620D1DBF3ADE0097CBB2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A76B620C1DBF3ADE0097CBB2 /* main.m */; };
@@ -18,10 +17,11 @@
 		A76B621B1DBF3ADE0097CBB2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A76B62191DBF3ADE0097CBB2 /* LaunchScreen.storyboard */; };
 		A76B62261DBF3ADE0097CBB2 /* DemoHotSearchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A76B62251DBF3ADE0097CBB2 /* DemoHotSearchTests.m */; };
 		A76B62311DBF3ADE0097CBB2 /* DemoHotSearchUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A76B62301DBF3ADE0097CBB2 /* DemoHotSearchUITests.m */; };
-		A7CBA9F51DC08650002C0225 /* SYHotSearchConst.m in Sources */ = {isa = PBXBuildFile; fileRef = A7CBA9F41DC08650002C0225 /* SYHotSearchConst.m */; };
-		A7CBAA021DC08731002C0225 /* UIView+SYHotSearch.m in Sources */ = {isa = PBXBuildFile; fileRef = A7CBAA011DC08731002C0225 /* UIView+SYHotSearch.m */; };
-		A7CBAA051DC0873E002C0225 /* UIColor+SYHotSearch.m in Sources */ = {isa = PBXBuildFile; fileRef = A7CBAA041DC0873E002C0225 /* UIColor+SYHotSearch.m */; };
-		A7CBAA0B1DC0AB6D002C0225 /* SYHotSearchView.m in Sources */ = {isa = PBXBuildFile; fileRef = A7CBAA0A1DC0AB6D002C0225 /* SYHotSearchView.m */; };
+		DFB16F172111FCCF001BDFA4 /* SYHotSearchConst.m in Sources */ = {isa = PBXBuildFile; fileRef = DFB16F0E2111FCCF001BDFA4 /* SYHotSearchConst.m */; };
+		DFB16F182111FCCF001BDFA4 /* SYHotSearchView.m in Sources */ = {isa = PBXBuildFile; fileRef = DFB16F102111FCCF001BDFA4 /* SYHotSearchView.m */; };
+		DFB16F192111FCCF001BDFA4 /* UIColor+SYHotSearch.m in Sources */ = {isa = PBXBuildFile; fileRef = DFB16F122111FCCF001BDFA4 /* UIColor+SYHotSearch.m */; };
+		DFB16F1A2111FCCF001BDFA4 /* UIImage+SYHotSearch.m in Sources */ = {isa = PBXBuildFile; fileRef = DFB16F142111FCCF001BDFA4 /* UIImage+SYHotSearch.m */; };
+		DFB16F1B2111FCCF001BDFA4 /* UIView+SYHotSearch.m in Sources */ = {isa = PBXBuildFile; fileRef = DFB16F162111FCCF001BDFA4 /* UIView+SYHotSearch.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,8 +42,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		A726AB2C1DC19A2B001B9D66 /* UIImage+SYHotSearch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+SYHotSearch.h"; sourceTree = "<group>"; };
-		A726AB2D1DC19A2B001B9D66 /* UIImage+SYHotSearch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+SYHotSearch.m"; sourceTree = "<group>"; };
 		A726AB2F1DC1A2E2001B9D66 /* HotSearchVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HotSearchVC.h; sourceTree = "<group>"; };
 		A726AB301DC1A2E2001B9D66 /* HotSearchVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HotSearchVC.m; sourceTree = "<group>"; };
 		A726AB321DC1D924001B9D66 /* normalImage@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "normalImage@2x.png"; sourceTree = "<group>"; };
@@ -63,15 +61,17 @@
 		A76B622C1DBF3ADE0097CBB2 /* DemoHotSearchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DemoHotSearchUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A76B62301DBF3ADE0097CBB2 /* DemoHotSearchUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DemoHotSearchUITests.m; sourceTree = "<group>"; };
 		A76B62321DBF3ADE0097CBB2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A7CBA9F21DC0863E002C0225 /* SYHotSearch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SYHotSearch.h; sourceTree = "<group>"; };
-		A7CBA9F31DC08650002C0225 /* SYHotSearchConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SYHotSearchConst.h; sourceTree = "<group>"; };
-		A7CBA9F41DC08650002C0225 /* SYHotSearchConst.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SYHotSearchConst.m; sourceTree = "<group>"; };
-		A7CBAA001DC08731002C0225 /* UIView+SYHotSearch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+SYHotSearch.h"; sourceTree = "<group>"; };
-		A7CBAA011DC08731002C0225 /* UIView+SYHotSearch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+SYHotSearch.m"; sourceTree = "<group>"; };
-		A7CBAA031DC0873E002C0225 /* UIColor+SYHotSearch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+SYHotSearch.h"; sourceTree = "<group>"; };
-		A7CBAA041DC0873E002C0225 /* UIColor+SYHotSearch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+SYHotSearch.m"; sourceTree = "<group>"; };
-		A7CBAA091DC0AB6D002C0225 /* SYHotSearchView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SYHotSearchView.h; sourceTree = "<group>"; };
-		A7CBAA0A1DC0AB6D002C0225 /* SYHotSearchView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SYHotSearchView.m; sourceTree = "<group>"; };
+		DFB16F0C2111FCCF001BDFA4 /* SYHotSearch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SYHotSearch.h; sourceTree = "<group>"; };
+		DFB16F0D2111FCCF001BDFA4 /* SYHotSearchConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SYHotSearchConst.h; sourceTree = "<group>"; };
+		DFB16F0E2111FCCF001BDFA4 /* SYHotSearchConst.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SYHotSearchConst.m; sourceTree = "<group>"; };
+		DFB16F0F2111FCCF001BDFA4 /* SYHotSearchView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SYHotSearchView.h; sourceTree = "<group>"; };
+		DFB16F102111FCCF001BDFA4 /* SYHotSearchView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SYHotSearchView.m; sourceTree = "<group>"; };
+		DFB16F112111FCCF001BDFA4 /* UIColor+SYHotSearch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+SYHotSearch.h"; sourceTree = "<group>"; };
+		DFB16F122111FCCF001BDFA4 /* UIColor+SYHotSearch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+SYHotSearch.m"; sourceTree = "<group>"; };
+		DFB16F132111FCCF001BDFA4 /* UIImage+SYHotSearch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+SYHotSearch.h"; sourceTree = "<group>"; };
+		DFB16F142111FCCF001BDFA4 /* UIImage+SYHotSearch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+SYHotSearch.m"; sourceTree = "<group>"; };
+		DFB16F152111FCCF001BDFA4 /* UIView+SYHotSearch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+SYHotSearch.h"; sourceTree = "<group>"; };
+		DFB16F162111FCCF001BDFA4 /* UIView+SYHotSearch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+SYHotSearch.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -128,8 +128,8 @@
 				A76B62121DBF3ADE0097CBB2 /* ViewController.m */,
 				A726AB2F1DC1A2E2001B9D66 /* HotSearchVC.h */,
 				A726AB301DC1A2E2001B9D66 /* HotSearchVC.m */,
+				DFB16F0B2111FCCF001BDFA4 /* SYHotSearchView */,
 				A726AB321DC1D924001B9D66 /* normalImage@2x.png */,
-				A7CBA9F11DC08626002C0225 /* SYHotSearch */,
 				A76B62141DBF3ADE0097CBB2 /* Main.storyboard */,
 				A76B62171DBF3ADE0097CBB2 /* Assets.xcassets */,
 				A76B62191DBF3ADE0097CBB2 /* LaunchScreen.storyboard */,
@@ -165,22 +165,23 @@
 			path = DemoHotSearchUITests;
 			sourceTree = "<group>";
 		};
-		A7CBA9F11DC08626002C0225 /* SYHotSearch */ = {
+		DFB16F0B2111FCCF001BDFA4 /* SYHotSearchView */ = {
 			isa = PBXGroup;
 			children = (
-				A7CBA9F21DC0863E002C0225 /* SYHotSearch.h */,
-				A7CBA9F31DC08650002C0225 /* SYHotSearchConst.h */,
-				A7CBA9F41DC08650002C0225 /* SYHotSearchConst.m */,
-				A7CBAA091DC0AB6D002C0225 /* SYHotSearchView.h */,
-				A7CBAA0A1DC0AB6D002C0225 /* SYHotSearchView.m */,
-				A7CBAA001DC08731002C0225 /* UIView+SYHotSearch.h */,
-				A7CBAA011DC08731002C0225 /* UIView+SYHotSearch.m */,
-				A7CBAA031DC0873E002C0225 /* UIColor+SYHotSearch.h */,
-				A7CBAA041DC0873E002C0225 /* UIColor+SYHotSearch.m */,
-				A726AB2C1DC19A2B001B9D66 /* UIImage+SYHotSearch.h */,
-				A726AB2D1DC19A2B001B9D66 /* UIImage+SYHotSearch.m */,
+				DFB16F0C2111FCCF001BDFA4 /* SYHotSearch.h */,
+				DFB16F0D2111FCCF001BDFA4 /* SYHotSearchConst.h */,
+				DFB16F0E2111FCCF001BDFA4 /* SYHotSearchConst.m */,
+				DFB16F0F2111FCCF001BDFA4 /* SYHotSearchView.h */,
+				DFB16F102111FCCF001BDFA4 /* SYHotSearchView.m */,
+				DFB16F112111FCCF001BDFA4 /* UIColor+SYHotSearch.h */,
+				DFB16F122111FCCF001BDFA4 /* UIColor+SYHotSearch.m */,
+				DFB16F132111FCCF001BDFA4 /* UIImage+SYHotSearch.h */,
+				DFB16F142111FCCF001BDFA4 /* UIImage+SYHotSearch.m */,
+				DFB16F152111FCCF001BDFA4 /* UIView+SYHotSearch.h */,
+				DFB16F162111FCCF001BDFA4 /* UIView+SYHotSearch.m */,
 			);
-			path = SYHotSearch;
+			name = SYHotSearchView;
+			path = ../../SYHotSearchView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -314,14 +315,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A7CBAA021DC08731002C0225 /* UIView+SYHotSearch.m in Sources */,
 				A726AB311DC1A2E2001B9D66 /* HotSearchVC.m in Sources */,
+				DFB16F1A2111FCCF001BDFA4 /* UIImage+SYHotSearch.m in Sources */,
+				DFB16F172111FCCF001BDFA4 /* SYHotSearchConst.m in Sources */,
+				DFB16F1B2111FCCF001BDFA4 /* UIView+SYHotSearch.m in Sources */,
 				A76B62131DBF3ADE0097CBB2 /* ViewController.m in Sources */,
-				A726AB2E1DC19A2B001B9D66 /* UIImage+SYHotSearch.m in Sources */,
-				A7CBA9F51DC08650002C0225 /* SYHotSearchConst.m in Sources */,
-				A7CBAA051DC0873E002C0225 /* UIColor+SYHotSearch.m in Sources */,
+				DFB16F192111FCCF001BDFA4 /* UIColor+SYHotSearch.m in Sources */,
 				A76B62101DBF3ADE0097CBB2 /* AppDelegate.m in Sources */,
-				A7CBAA0B1DC0AB6D002C0225 /* SYHotSearchView.m in Sources */,
+				DFB16F182111FCCF001BDFA4 /* SYHotSearchView.m in Sources */,
 				A76B620D1DBF3ADE0097CBB2 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
